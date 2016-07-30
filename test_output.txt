@@ -1,0 +1,48 @@
+Print the auto list:
+1
+Focus Wagon ZTW
+Ford
+18445
+2
+Accord Hybrid
+Honda
+29305
+
+Update the option price:
+18
+none
+0
+19
+selected
+595
+
+18
+none
+0
+19
+selected
+1000
+
+Update the option set name:
+1
+Color
+2
+Transmission
+3
+Brakes/Traction Control
+4
+Side Impact Air Bags
+5
+Power Moonroof
+
+1
+Color
+2
+Transmission
+3
+Brakes/Traction Control
+4
+Side Impact Air Bags
+5
+Moonroof
+

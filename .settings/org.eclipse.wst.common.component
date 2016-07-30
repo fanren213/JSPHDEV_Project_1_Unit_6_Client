@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="JSPHDEV_Project_1_Unit_6_Client">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <property name="java-output-path" value="/JSPHDEV_Project_1_Unit_6_Client/bin"/>
+        <property name="context-root" value="JSPHDEV_Project_1_Unit_6_Client"/>
+    </wb-module>
+</project-modules>

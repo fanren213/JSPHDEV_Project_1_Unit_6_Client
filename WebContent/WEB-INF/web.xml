@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Auto Configuration</display-name>
+  <welcome-file-list>
+    <welcome-file>SelectAuto</welcome-file>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>SelectAuto</display-name>
+    <servlet-name>SelectAuto</servlet-name>
+    <servlet-class>servlet.SelectAuto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SelectAuto</servlet-name>
+    <url-pattern>/SelectAuto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ModifyAuto</display-name>
+    <servlet-name>ModifyAuto</servlet-name>
+    <servlet-class>servlet.ModifyAuto</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ModifyAuto</servlet-name>
+    <url-pattern>/ModifyAuto</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>ShowChoice</display-name>
+    <servlet-name>ShowChoice</servlet-name>
+    <servlet-class>servlet.ShowChoice</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ShowChoice</servlet-name>
+    <url-pattern>/ShowChoice</url-pattern>
+  </servlet-mapping>
+</web-app>
